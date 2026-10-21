@@ -1,0 +1,4 @@
+<footer class="site-footer">
+    <span>SeatTrack &middot; College workshops and seminars</span>
+    <span>All-time registrations: <strong><c:out value="${applicationScope.registrationCount}" default="0"/></strong></span>
+</footer>

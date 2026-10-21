@@ -1,0 +1,7 @@
+<header class="site-header">
+    <a class="brand" href="${pageContext.request.contextPath}/workshops">SeatTrack</a>
+    <nav aria-label="Main navigation">
+        <a href="${pageContext.request.contextPath}/workshops">Workshop catalog</a>
+        <a href="${pageContext.request.contextPath}/admin">Admin tables</a>
+    </nav>
+</header>
