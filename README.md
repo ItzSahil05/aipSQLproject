@@ -52,4 +52,4 @@ Deploy `target/seattrack.war` to Apache Tomcat 10.1 running on Java 17 or later,
 - **Hibernate:** [`Workshop`](src/main/java/com/seattrack/model/Workshop.java) and [`Registration`](src/main/java/com/seattrack/model/Registration.java) map a bidirectional `@OneToMany` / `@ManyToOne` relationship. Booking uses JDBC so the syllabus's transaction and metadata exercises are visible.
 - **Database inspection:** use the Admin tables page or DBeaver to inspect the live rows.
 
-The admin page is intended for a local class demonstration and is not protected by authentication. Add authentication and role-based authorization before exposing it beyond a trusted coursework environment.
+The admin page is intended for a local class demonstration and is not protected by authentication.
